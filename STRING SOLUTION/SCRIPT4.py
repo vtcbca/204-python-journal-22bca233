@@ -25,13 +25,19 @@ while q=="y" or q=="Y":
           else:  
             print("String has no even charcater in it.....")     
   elif c==3:
-    #SOLVE ERROR
+    
           t=[]
           for i in a:
-            for j in range(0,len(i),2):
-              i[j]=j
-            t.append(i)
-          print(t)  
+            o=[]
+            for enu,j in enumerate(a):
+               if enu%2==0:
+                  o.append(enu)
+               else:
+                  o.append(enu)
+            p.append(o)
+          for i in p:
+             print(i)
+
               
 
   elif c==4:
