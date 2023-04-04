@@ -26,7 +26,7 @@ while q=="y" or q=="Y":
             print("String has no even charcater in it.....")     
   elif c==3:
     
-          t=[]
+          p=[]
           for i in a:
             o=[]
             for enu,j in enumerate(a):
