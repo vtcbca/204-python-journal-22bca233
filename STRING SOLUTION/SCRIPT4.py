@@ -33,7 +33,7 @@ while q=="y" or q=="Y":
                if enu%2==0:
                   o.append(enu)
                else:
-                  o.append(enu)
+                  o.append(j)
             p.append(o)
           for i in p:
              print(i)
